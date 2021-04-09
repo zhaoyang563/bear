@@ -1,0 +1,4 @@
+/* pages/video/video.wxss */
+page{
+  background-image: url(https://7878-xx-2gtw34asc662577e-1305545390.tcb.qcloud.la/imgs/1020bg.jpg?sign=21675009104c160a70a30746c3dfbcd8&t=1617958757);
+}

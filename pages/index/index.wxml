@@ -1,0 +1,14 @@
+<view class="musicIcon {{isPlay ? 'rotate' : ''}}" bindtap="setAudio">
+  <view class="line" wx:if="{{!isPlay}}"></view>
+  <image src="../../assets/img/music.png"></image>
+</view>
+<view class="contsiner">
+  <image src="{{imgUrl}}"></image>
+  <view class="seeNext" bindtap="seeNext">
+    点我可观看下一张哟~
+  </view>
+  <view class="text" style="color:{{textColor}}">
+    {{text}}
+  </view>
+</view>
+

@@ -1,0 +1,71 @@
+page{
+  background-image: url(https://7878-xx-2gtw34asc662577e-1305545390.tcb.qcloud.la/imgs/1004bg.jpg?sign=5d5248ef8ff5a7a8f8ade77864c5095a&t=1617954483);
+}
+.musicIcon{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  float: right;
+  position: relative;
+  /* -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    -webkit-animation: rotate 3s linear infinite;
+    -moz-animation: rotate 3s linear infinite;
+    -o-animation: rotate 3s linear infinite; */
+    
+}
+.rotate{
+  animation: rotate 3s linear infinite;
+}
+/* @-webkit-keyframes rotate{from{-webkit-transform: rotate(0deg)}
+    to{-webkit-transform: rotate(360deg)}
+}
+@-moz-keyframes rotate{from{-moz-transform: rotate(0deg)}
+    to{-moz-transform: rotate(359deg)}
+}
+@-o-keyframes rotate{from{-o-transform: rotate(0deg)}
+    to{-o-transform: rotate(359deg)}
+} */
+@keyframes rotate{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(359deg)}
+}
+.musicIcon .line{
+  width: 60rpx;
+  height: 1rpx;
+  box-sizing: border-box;
+  background: #696969;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 48%;
+  left: 8%;
+}
+.musicIcon image{
+  width: 100%;
+  height: 100%;
+}
+.contsiner{
+  width: 100%;
+  height: 500rpx;
+  position: absolute;
+  top: 20%;
+  transform: rotate(2deg);
+}
+.contsiner image{
+  width: 100%;
+  height: 100%;
+}
+.contsiner .seeNext{
+  margin-top: 30rpx;
+  color: #fff;
+  text-align: center;
+  transform: rotate(-2deg);
+}
+.contsiner .text{
+  margin-top: 30rpx;
+  color: #fff;
+  text-align: center;
+  transform: rotate(-2deg);
+}
